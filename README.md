@@ -5,6 +5,7 @@ Test the main features of https://www.saucedemo.com (login, product list, cart, 
 
 ## 2. Scope
 **In scope:** Login, Products page, Cart, Checkout
+
 **Out of scope:** Performance and security testing
 
 ## 3. Test Environment
