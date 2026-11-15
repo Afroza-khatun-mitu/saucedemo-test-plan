@@ -31,12 +31,12 @@ Test the main features of https://www.saucedemo.com (login, product list, cart, 
 | TC12 | Login | Login with Enter key | Type valid details, press Enter | Products page opens |pass|Enter works when the cursor is in a field.Dose nothing outside the form (expected) |
 | TC13 | Login | Close error message | Trigger any error, click X on error box | Error message disappears |pass | |
 | TC14 | Login | Login after failed attempt | Try wrong password, then correct password | Products page opens |pass | |
-| TC15 | Login | Open page without login | Open saucedemo.com/inventory.html directly | Error: must be logged in, stays on login page | | |
-| TC16 | Login | Logout | Login, open menu, click Logout | Login page opens | | |
-| TC17 | Login | Back button after logout | Logout, click browser Back | Products page is not shown | | |
-| TC18 | Login | problem_user login | Login with problem_user | Products page opens | | |
-| TC19 | Login | performance_glitch_user login | Login with performance_glitch_user | Products page opens (note how long it took) | | |
-| TC20 | Login | Password is hidden | Type in password field | Characters shown as dots | | |
+| TC15 | Login | Open page without login | Open saucedemo.com/inventory.html directly | Error: must be logged in, stays on login page |pass | |
+| TC16 | Login | Logout | Login, open menu, click Logout | Login page opens |pass | |
+| TC17 | Login | Back button after logout | Logout, click browser Back | Products page is not shown |pass | |
+| TC18 | Login | problem_user login | Login with problem_user | Products page opens |pass | |
+| TC19 | Login | performance_glitch_user login | Login with performance_glitch_user | Products page opens (note how long it took) |pass |take 5 to 6 sec|
+| TC20 | Login | Password is hidden | Type in password field | Characters shown as dots |pass | suggestion:add a show/hide password(eye)icon so users can check what they typed|
 
 ## 5. Bug Reports
 (Will be added after testing)
