@@ -17,11 +17,11 @@ Test the main features of https://www.saucedemo.com (login, product list, cart, 
 
 | ID | Feature | Test Case | Steps | Expected Result | Status |
 |----|---------|-----------|-------|-----------------|--------|
-| TC01 | Login | Valid login | Enter standard_user and correct password, click Login | Products page opens | | pass|
-| TC02 | Login | Wrong password | Enter wrong password, click Login | Error message is shown | | pass|
-| TC03 | Login | Locked user | Login with locked_out_user | "User has been locked out" message | | pass|
-| TC04 | Login | Empty fields | Click Login with empty fields | "Username is required" message | | pass |
-| TC05 | Cart | Add one product | Click Add to cart on one item | Cart badge shows 1 | | pass|
+| TC01 | Login | Valid login | Enter standard_user and correct password, click Login | Products page opens |pass|
+| TC02 | Login | Wrong password | Enter wrong password, click Login | Error message is shown |pass|
+| TC03 | Login | Locked user | Login with locked_out_user | "User has been locked out" message |pass|
+| TC04 | Login | Empty fields | Click Login with empty fields | "Username is required" message |pass|
+| TC05 | Cart | Add one product | Click Add to cart on one item | Cart badge shows 1 |pass|
 
 ## 5. Bug Reports
 (Will be added after testing)
